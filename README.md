@@ -2,7 +2,11 @@
 This historical building recognition system can perform classification of the historical buildings in Malacca, Malaysia. The model is trained with images of three historical buildings, namely Stadhuys, St Paul Church, and  A'Famosa. The images are taken from different angles and at different times of a day.
 
 # Data description
-The input data for this project are 3 historical buildings in Malacca, which consist of A'Famosa, Stadhuys, and St. Paul Church. The pictures are taken at multiple angle, day, time and weather. The pictures are taken once per week and at 3 different times to capture the different variations of lighting and weather for 3 weeks. 
+The input data for this project are 3 historical buildings in Malacca, which consist of A'Famosa, Stadhuys, and St. Paul Church. The pictures are taken at multiple angle, day, time and weather. The pictures are taken once per week and at 3 different times to capture the different variations of lighting and weather for 3 weeks.
+
+| A'Famosa | Stadhuys | St Paul Church |
+|----------|----------|----------------|
+| ![AFamosa](/Flowcharts/1_1.png?raw=true)       | ![Stadhuys](/Flowcharts/2_3.png?raw=true)        | ![StPaul](/Flowcharts/3_29.png?raw=true)              | 
 
 # Experiment setup
 The total number of pictures collected is 162, each building consists of 54 pictures. The pictures are cropped to extract the area of interest and then resized to 100x100. All 162 cropped and resized pictures are then separated to training and testing set at 114 and 48 respectively.
