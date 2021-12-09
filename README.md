@@ -6,7 +6,7 @@ The input data for this project are 3 historical buildings in Malacca, which con
 
 | A'Famosa | Stadhuys | St Paul Church |
 |----------|----------|----------------|
-| ![AFamosa](/Flowcharts/1_1.png?raw=true)       | ![Stadhuys](/Flowcharts/2_3.png?raw=true)        | ![StPaul](/Flowcharts/3_29.png?raw=true)              | 
+| ![AFamosa](/Flowcharts/1_1.jpg?raw=true)       | ![Stadhuys](/Flowcharts/2_3.jpg?raw=true)        | ![StPaul](/Flowcharts/3_29.jpg?raw=true)              | 
 
 # Experiment setup
 The total number of pictures collected is 162, each building consists of 54 pictures. The pictures are cropped to extract the area of interest and then resized to 100x100. All 162 cropped and resized pictures are then separated to training and testing set at 114 and 48 respectively.
